@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3,h2{
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.boxApp{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgba(9, 2, 27, 0.886);
   min-height: 100vh;
+}
+
+.showInfo{
+  background-color: rgb(231, 222, 222);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.achievements{
+  border: 1px solid rgb(234, 194, 194);
+  width: 300px;
+  background-color: white;
+  overflow-wrap: break-word;
+}
+
+
+.ww {
+  position: relative;
+  display: flex;
+  left: 50px;
+}
+
+.inputInfoPerson{
+  background-color: rgb(24, 130, 130);
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.input{
+  background-color:  rgba(9, 2, 27, 0.886);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.paragraph {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100px;   
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.showInformation{
+  background-color: rgb(178, 219, 178);
+  padding: 15px;
+  margin: 15px;
+  width: 500px;
+  border-radius: 15px;
+  height: 50%;
+}
+.FIO, .BasicInfo {
+  
+  width: 200px;
+}
+/* 
+.BasicInfo{
+  
+  width: 200px;
+} */
+
+.showInfoPerson{
+  background-color: bisque;
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
